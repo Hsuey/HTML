@@ -1,0 +1,280 @@
+body {
+    color: #000;
+    background-repeat: repeat;
+    font-family: "微软雅黑","Helvetica Neue",Helvetica,Verdana,Arial,sans-serif;
+    font-size: 12px;
+    min-height: 101%;
+}
+
+#home {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+} 
+/* margin: 0 auto;
+    width: 65%;
+    min-width: 950px;
+    background-color: rgba(255,255,255,0.8);
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow:  */
+
+.input-group:focus {
+    border-color: #b61515;
+    outline: 0;
+    -webkit-box-shadow: none;
+    box-shadow:none;
+    }
+
+/* #gif1{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+
+} */
+
+#gif2{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#header{
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+#weather{
+    position: relative;
+    right: 0px;
+    top: 0px;
+}
+
+#header h1{
+    width: 500px;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 50px;
+    color: #000000;
+    letter-spacing: 6px;
+    line-height: 1.5em;
+    text-shadow: 3px 3px 3px #ac9c9c;
+    font-weight: bold;
+    font-family: Consolas;
+}
+
+#header h1 a{
+    outline: none;
+}
+
+h1 a:link{
+    text-decoration:none;
+    color: #000000;
+}
+
+h1 a:hover{
+    color: rgb(49, 155, 182);
+}
+
+a:visited{
+    color: #515151;
+}
+
+#header h2{
+    color: #757575;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#head{
+    font-size: 13px;
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    height: 50px;
+    clear: both;
+    margin-top: 25px;
+}
+
+#headline{
+    min-height: 30px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#headline li.line,#anime li{
+    float: left;
+    margin: 0 40px 0 0;
+    list-style: none;
+    white-space: nowrap;
+}
+
+#input{
+    width: 320px;
+    height: 22px;
+}
+
+#headline a.line{
+    display: block;
+    width: 5em;
+    height: 22px;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    outline: none;
+    font-size: 17px;
+}
+
+#headline a:link{
+    color: #515151;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#headline a:hover, #headline a:active{
+    color: black;
+    font-weight: bold;
+}
+
+ul#down.dropdown-menu{
+    float: top;
+}
+
+#introduce{
+    width: 200px;
+    /* height: 500px; */
+    /* margin: auto auto; */
+    position: relative;
+}
+
+#mine{
+    height: 120px;
+    width: 140px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#name{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: initial ;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(21, 83, 112);
+}
+
+#personal>li{
+    float: left;
+    margin: 0 40px 0 0;
+    list-style: none;
+    white-space: nowrap;
+}
+
+#hobbies li,#statistics li{
+    float: left;
+    margin: 0 40px 0 0;
+    list-style: none;
+}
+
+#hobbies img{
+    width:340px;
+    height: 170px;
+}
+
+#hobby,#learning,#achievement{
+    border-bottom: 1px solid #ededed;
+    border-top: 1px solid #ededed;
+    text-align: center;
+    font-size: 20px; 
+    font-style: initial;
+    color: rgb(19, 44, 58);
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#statistics img{
+    width: 500px;
+    height: 320px;
+}
+
+#Copyright{
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
+
+.panel-heading a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+#anime li img{
+    width: 140px;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.6s;
+}
+
+#anime li img:hover{
+    transform: scale(1.4);
+}
+
+
+/* ????? */
+.mt-15 {
+    margin-top: 15px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+#leftcharts {
+    height: 300px;
+}
+
+#rightcharts {
+    height: 300px;
+}
+
+#footer{
+    height: 100px;
+    background-color: #efefef;
+    padding-top: 15px;
+}
+
+#videolist .videoitem{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#videolist .videoitem:hover{
+    opacity: 0.6;
+}
+
+#videolist img{
+    height: 180px;
+    width: 100%;
+}
+#videolist .title{
+    font-size: 16px;
+}
+
+.video-js{
+    margin: auto;
+}
+

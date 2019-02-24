@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hsuey</title>
+    <link rel="shortcut icon" href="./assets/images/03.jpg">
+    <!-- 自己写的 -->
+    <link type="text/css" rel="stylesheet" href="./assets/style/common.css">
+    <!-- END -->
+
+    <!-- 引用bootstrap-3.3.7 -->
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/js/bootstrap/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./assets/js/video-js-7.4.1/video-js.css">
+
+    <!-- <link type="text/css" rel="stylesheet" href="./bootstrap-3.3.7/dist/css/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="./bootstrap-3.3.7/dist/css/bootstrap-theme.css"> -->
+
+    <!-- END -->
+
+</head>
+<body class="style">
+
+        <script src="./assets/js/My_change_background.js"></script>
+
+    <div id="home">
+        <!-- <img id="gif1" src="./Gif_images/02.gif"> -->
+        <img id="gif2" src="./assets/images/Gif_images/01.gif">
+        <!-- 主页小标签 -->
+        <div id="header">
+            <h1>
+                <a href="#">Hsuey</a>
+            </h1>
+            <h2>等风来，不如追风去！</h2>
+            <div id="head">
+                <ul id="headline">
+                    <li class="line">
+                        <a class="line" href="index.html">Home</a>
+                    </li>
+                    <li class="line">
+                        <a class="line" href="index.html#personal">About me</a>
+                    </li>
+                    <li class="line">
+                        <a class="line" href="index.html#Drawing">Drawing</a>
+                    </li>
+                    <li class="line">
+                        <a style="color:black;" class="line" href="#video">Video</a>
+                    </li>
+                    <li class="line">
+                            <a class="line" href="#words">Diary</a>
+                        </li>
+                    <li class="line">
+                        <a class="line" href="tencent://Message/?Uin=2428791151&websiteName=qzone.qq.com&Menu=yes">Contact me</a>
+                    </li>
+                    <!-- 下拉菜单 -->
+                    <li style="float: left;margin: 0 40px 0 0;list-style: none; padding-top: 20px;" class="dropdown">
+                        <div href="#" class="dropdown-toggle" data-toggle="dropdown"  aria-haspopup="true" aria-expanded="false"><a style="font-size: 17px;" href="#"> Others<span class="caret"></span></a></div>
+                        <ul style="background-color: rgba(255, 255, 255, 0.6);" class="dropdown-menu">
+                            <li><a href="Mine.html#oth">My anime</a></li>
+                            <li><a href="Mine.html#oth">My novels</a></li>
+                            <li><a href="Mine.html#oth">Study language</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header"></li>
+                            <li><a href="Mine.html#charts">Learning statistics</a></li>
+                            <li><a href="http://172.20.2.51.cqu.pt/train/game/2048.htm" target="_blank">Something to relax</a></li>
+                        </ul>
+                    </li>
+                    <!-- END -->
+
+                    <!-- 搜索框 -->
+                    <div  style="width:180px; height:22px;margin-top:10px;color: rgb(253, 254, 255);float: left;margin: 0 40px 0 0;" class="col-lg-6">
+                            <div style="margin-top:10px;background-color:rgb(253, 254, 255,0.2)" class="input-group">
+                                <input style="background-color:rgb(253, 254, 255,0.2);border: 1px solid rgb(253, 254, 255,0.2);" type="text" class="form-control" placeholder="Search for...">
+                                  <div style="background-color:rgb(253, 254, 255,0.2)" class="input-group-btn">
+                                        <div style="font-size:17px;color: rgba(82, 82, 82, 0.589);" id="search"  class="glyphicon glyphicon-search" aria-hidden="true">
+                                        </div>
+                                  </div>
+                            </div>
+                        </div>
+                    <!-- END -->
+            </div>
+                </ul>
+            </div>
+            <!-- END -->
+
+
+            <!--视频开始-->
+        <div style="margin-top:30px;" id="video">
+            <div class="col-sm-12 mt-15">
+                <div class="col-sm-6">
+                    <video id="video_js" height="300px" class="video-js  vjs-default-skin vjs-big-play-centered"
+                        controls preload="auto" poster="./MP4/01.jpg" data-setup="{}">
+                        <source src="./MP4/01.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="col-sm-6 videoinfo">
+                    <h2 class="title text-center">昨日青空</h2>
+                    <div class="content">
+                        <p>那时候，我们十六七岁，时间很慢，夏天很长，年少的我们，以为只要说过了永远，就一定能够永远。</p>
+                        <p>如果当时我们说了再见，后来是不是就可以再见</p>
+                        <p>风吹过吹旧了那条小巷，到尽头追不到你余光</p>
+                        <p>人生的列车岂止一站，我们会沿着各自的方向开往不同的地方</p>
+                        <p>其实，只是因为我们能看见，时间改变了什么。但在我们看不见的地方，却也存放着那些，时间没有改变的东西——这座小城的气息，刻在我们眉梢眼角，任我们浪迹天涯海角，关于彼此的记忆，也会在同一段岁月里
+                            波光粼粼。还有昨日那远去却不曾逝去的青空，用它清澈心底的美丽，让我们的心印流年，而且——从来不曾分开。</p>
+
+                        <!-- <p>人类的成功源于梦想，而我们美丽的青春更需要梦想的存在。</p>
+
+                        <p>青春的梦是石头，闪耀着火花;是火点燃了希望之灯;它是照亮前方道路的明灯;这是一条通向黎明的路。但如果我们有理想而不是行动，我们将一事无成，正如一万不等于一。</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--视频结束-->
+
+
+        <style>
+        .title{
+            font-weight: bold;
+            
+        }
+        </style>
+
+        <div style="margin-bottom:20px;" id="videolist" class="col-sm-12 mt-15 row">
+            <div class="videoitem col-sm-4" data-url="./MP4/01.mp4" data-title="昨日青空" data-content="<p>那时候，我们十六七岁，时间很慢，夏天很长，年少的我们，以为只要说过了永远，就一定能够永远。</p>
+                <p>如果当时我们说了再见，后来是不是就可以再见</p>
+                <p>风吹过吹旧了那条小巷，到尽头追不到你余光</p>
+                <p>人生的列车岂止一站，我们会沿着各自的方向开往不同的地方</p>
+                <p>其实，只是因为我们能看见，时间改变了什么。但在我们看不见的地方，却也存放着那些，时间没有改变的东西——这座小城的气息，刻在我们眉梢眼角，任我们浪迹天涯海角，关于彼此的记忆，也会在同一段岁月里
+                    波光粼粼。还有昨日那远去却不曾逝去的青空，用它清澈心底的美丽，让我们的心印流年，而且——从来不曾分开。</p>">
+                <div class="text-center">
+                    <img src="./MP4/01.jpg">
+                    <div class="title">昨日青空</div>
+                </div>
+            </div>
+            <div class="videoitem col-sm-4" data-url="./MP4/02.mp4" data-title="少年" data-content="<p>你又想起某个夏天，热闹海岸线，记忆中的那个少年，骄傲的宣言；</p>
+                    <p>伸出双手就能拥抱全世界，相信所有的梦想一定会实现，一切看起来都不会太遥远；</p>
+                    <p>转眼之间过了几年，轻浮的语言都已经慢慢沉淀；</p>
+                    <p>即使难免会变得更加洗练，我们不曾妥协，</p>
+                    <p>那是我们都回不去的从前，幸好还可以坚持当时的信念；</p>
+                    <p>世界尝试改变，当初的那个少年，那是我们都回不去的从前，</p>
+                    <p>当你站在那个夏天的海岸线，我们还是心里面那个偏执的少年</p>">
+                <div class="text-center">
+                    <img src="./MP4/02.png">
+                    <div class="title">少年</div>
+                </div>
+            </div>
+            <div class="videoitem col-sm-4" data-url="./MP4/03.mp4" data-title="不将就-何以笙箫默" data-content="<p>天下太大,总有人比你更合适</P>
+                <p>如果世界上曾经有那个人出现过，其他人都会变成将就，我不愿意将就。</P>
+                <p>既然我找不到你，那只有站在最显眼的地方让你来找我。</P>
+                <p>过去的美好,就留在过去吧,不要再去破坏它了,不然会发现,彼此已经不是曾经那个人了</P>">
+                <div class="text-center">
+                    <img src="./MP4/03.jpg">
+                    <div class="title">不将就-何以笙箫默</div>
+                </div>
+            </div>
+            <div class="videoitem col-sm-4" data-url="./MP4/04.mp4" data-title="光阴的故事-中国合伙人" data-content="<p>年轻的时候，不该什么都不想，也不能想太多。想得太多会毁了你，
+                我相信这话…… 成功路上最心酸的是要耐得住寂寞、熬得住孤独，总有那么一段路是你一个人在走，一个人坚强和勇敢。也许这个过程要持续很久，但如果你挺过去了，最后的成功就属于你。</p>
+                <p>我从来就没有什么梦想，我也不知道什么是梦想，我只知道什么是失败，中国的学生是全世界学生里最容易失败的，因为你们面临的是全世界最残酷的考试.失败无处不在，人生如此绝望，
+                这就是现实！掉在水里你不会淹死，呆在水里你才会淹死，你只有游，不停地往前游.那些从一开始就选择放弃的人他不会失败，因为他们从一开始就失败了，失败并不可怕，害怕失败才真正可怕.</p>">
+                <div class="text-center">
+                    <img src="./MP4/04.jpg">
+                    <div class="title">光阴的故事-中国合伙人</div>
+                </div>
+            </div>
+            <div class="videoitem col-sm-4" data-url="./MP4/05.mp4" data-title="体面-前任3" data-content="<p>年少时的幻想总是那么美好，连“以为”
+                都是那么天真，直到被现实残忍撕碎。那些以为，禁不起一点点风吹雨打。但他们放不下骄傲去交流沟通。然后就再也没有“以为”了。</p>
+                <p>或许只有紫霞离开至尊宝，至尊宝才能成长为孙悟空，当你成熟的时候不一定得到什么但一定会失去什么.</p>
+                <p>所有大张旗鼓的离开其实都是试探， 真正的离开是没有告别的 ，真正想要离开的人， 只是挑了一个风和日丽的下雨 ，裹了件最常穿的大衣 ，悄悄关上门 ，然后再也没有回来 。</p>">
+                <div class="text-center">   
+                <img src="./MP4/05.jpg">
+                    <div class="title">体面-前任3</div>
+                </div>
+            </div>
+            <div class="videoitem col-sm-4" data-url="./MP4/GDP.mp4" data-title="GDP-中国的飞速发展" data-content="<p>在短短一分钟左右的视频里，我们深切的感受到改革开放
+                后祖国的发展之快，而在这数字的背后，反映的更是中国社会的快速发展，人民生活的巨大变化，改革开放，使中国在40年里走完了西方国家百年的发展历程，是人类文明的创举。</p>
+                <p></p>">
+                <div class="text-center">
+                    <img src="./MP4/GDP.png">
+                    <div class="title">GDP-中国的飞速发展</div>
+                </div>
+            </div>
+        </div>
+        <div style="clear:both;"></div>
+        <!-- END -->
+
+
+    <!-- 模态窗口 -->
+    <div style="background-color:rgba(255, 255, 255, 0.6);" id="videomodal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div style="background-color:rgba(255, 255, 255, 0.3);" class="modal-content">
+                    <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+    
+                    <div class="modal-body">
+                            <div class="text-centet">
+    
+                                    <video id="video_js_modal" height="450px" class="video-js  vjs-default-skin vjs-big-play-centered text-center"
+                                    controls preload="auto" data-setup="{}">
+                                    </video>
+                            </div>
+
+                            <hr>
+                                <div id="videocontent"></div>
+                    </div>
+              </div>
+            </div>
+    </div>
+          <!-- END -->    
+
+
+            <!-- 引用 -->
+            <!-- <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script> -->
+            <script src="./assets/js/jquery/jquery-3.3.1.js"></script>
+            <script src="./assets/js/video-js-7.4.1/video.js"></script>
+            <script src="./assets/js/bootstrap/js/bootstrap.js"></script>
+            <script src="./assets/js/echarts.min.js"></script>
+            <!-- END -->
+
+
+        <script>
+                $(function () {
+                //     $(".videoitem").on("click",
+                //        function () {
+                //         //var video_url = $(this).data("url");
+                //         var video_url = $(this).attr("data-url");
+                //         var video_title = $(this).attr("data-title")||"";
+                //         var video_content = $(this).attr("data-content")||"";
+                //         $("#video .videoinfo .title").html(video_title);
+                //         $("#video .videoinfo .content").html(video_content);
+                //            var myPlayer = videojs('video_js');
+                //         myPlayer.src(video_url);
+                //         myPlayer.load(video_url);
+                //         myPlayer.ready(function(){
+                //                 var myPlayer = this;
+                //                 myPlayer.play();
+                //         });
+                //        }
+                //     );
+                    $(".videoitem").on("click",function(){
+                        $("#videomodal").modal("show");
+                        var myPlayer_default = videojs('video_js');
+                        myPlayer_default.pause();
+                        var video_url = $(this).data("url");
+                        var video_url = $(this).attr("data-url");
+                        var video_title = $(this).attr("data-title")||$(this).find(".title").html()||"";
+                        var video_content = $(this).attr("data-content")||"";
+                        $("#myModalLabel").html(video_title);
+                        $("#videocontent").html(video_content);
+                        var myPlayer = videojs('video_js_modal');
+                        myPlayer.src(video_url);
+                        myPlayer.load(video_url);
+                        myPlayer.ready(function(){
+                                var myPlayer = this;
+                                myPlayer.play();
+                        });
+                        $("#videomodal").on("hide.bs.modal",function(){
+                            myPlayer.pause();
+                        })
+                    });
+                });
+            </script>
+
+
+            <!-- 小窗播放 -->
+            <!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+            <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+            <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+            <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+            <script>
+                $(document).ready(function(){
+                    $("#videomodal").draggable();
+                });
+            </script> -->
+
+
+
+
+            <!-- Some words of me -->
+            <style>
+            #words ul>li{
+                list-style-type: circle;
+                font-size: 15px;
+                font-weight:600;
+                letter-spacing:3px;
+                color: rgb(4, 73, 119); 
+            }
+            #words ul>li>div{
+                color: rgba(0, 0, 0, 0.801);
+            }
+            #words ul span{
+                font-size: 20px;
+                font-weight:bold;
+                margin-top: 100px;
+            }
+            </style>
+
+            <div id="words">
+            <div style="text-align: center;font-size: 25px;font-weight: bold;color: rgb(29, 56, 61);margin-top:30px;;border-bottom: 1px solid #ededed;border-top: 1px solid #ededed;">
+                    Some words of me</div>
+                <ul>
+                    <span><div style="margin-top: 20px;margin-bottom: 10px">不必仰望别人，自己就是风景！</div></span>
+                    <li><div>大千世界，不会有两张一模一样的面孔，只要你仔细观察，总会有细微的差别。同是走兽，兔子娇小而青牛高大；同是飞禽，雄鹰高飞而紫燕低回。</div></li>
+                    <li><div>人，总会有智力、运气的差别；总会受环境、现实的约束；总会有人在你切一盘水果时，秒杀一道数学题；总会有人在你熟睡时，回想一天的得失；总会有人比你跑的快......</div></li>
+                    <li><div>参差不齐，才构成了这世界上一道道亮丽的风景。你站在桥上看风景，看风景的人在楼上看你。</div></li>
+                    <li><div>走在生活的风雨旅程中，当你羡慕别人住着高楼大厦时，也许瑟缩在墙角的人，正羡慕你有一座可以遮风的草屋。当你羡慕别人坐在豪华车里，而失意于自己在地上行走时，也许躺在病床上的人，正羡慕你还可以自由行走......</div></li>
+                    <li><div>有很多时候，我们往往不知道，自己在欣赏别人的时候，自己也成了别人眼中的风景。</div></li>
+                    <li><div>生活中，我们没有必要为难自己，质疑自己。<br>
+                             每个人都有自己的泪要擦，每个人都有自己的路要走，只要记得：冷了，给自己加件外衣；饿了，给自己买个面包；痛了，给自己一份坚强；失败了，给自己一个目标。跌倒了，在伤痛中爬起，给自己一个宽容的微笑继续往前走，已足够！</div></li>
+                    <li><div>一生辗转千万里，莫问成败重几许，得之坦然，失之淡然，与其在别人的辉煌里仰望，不如亲手点亮自己的心灯，扬帆远航......</div></li>
+                    <li><div>面向太阳吧，不问春暖花开，只求快乐面对，因为，透过洒满阳光的玻璃窗，蓦然回首，你何尝不是别人眼中的风景。</div></li>
+
+                    <span><div style="margin-top: 20px;margin-bottom: 10px">当你足够优秀时，你想要的一切都会来找你！</div></span>
+                    <li><div>接受不完美的自己，在孤独时给自己安慰，在寂寞时给自己温暖，积累坚强，面对阳光！</div></li>
+                    <li><div>世上唯一不能复制的是时间，唯一不能重演的是人生。该怎么走，过什么样的生活，全凭自己的选择和努力。</div></li>
+                    <li><div>只有放得下，才能将该拿得起的东西更好地把握住，从而抓住最重要的东西。只有这样，你的人生才会更加精彩。</div></li>
+                    <li><div>不要尽力而为，而要全力以赴，即使没有出色的外表和能力，也要有压倒一切的霸气，用自己的光，照亮自己的路！</div></li>
+                    <li><div>乐观是希望的明灯，它指引着你从危险峡谷中步向坦途，使你得到新的生命新的希望，支持着你的理想永不泯灭。</div></li>
+                    <li><div>要成为一个优秀的人，就要用一颗开放的心去看待世界，要敢于去相信那些在你所控制之外的不确定的事物。</div></li>
+                    <li><div>世界上最快的捷径，就是脚踏实地，不要对自己的付出产生质疑，那是厚积薄发的基本前提。</div></li>
+                    <li><div>每一个清晨，记得鼓励自己。没有奇迹，只有你努力的轨迹；没有运气，只有你坚持的勇气！每一份坚持都是成功的累积，只要相信自己，总会遇到惊喜。</div></li>
+                    <li><div>最好的人生，不是一马平川没有障碍，而是跨过或者绕过路障继续向前；最好的际遇不是不受伤，而是带着伤口依然愿意奔跑。</div></li>
+                    <li><div>人生无论你如何等待，机会总是不会主动敲门。别人拥有的，你不必羡慕，只要努力，你也会拥有；自己拥有的，你不必炫耀，因为别人也在奋斗，也会拥有。</div></li>
+                    <hr>
+                    <li><div>有时候，坚持了你最不想干的事情之后，便可得到你最想要的东西。</div></li>
+                    <li><div>把懒惰放一边，把丧气的话收一收，把积极性提一提，把矫情的心放一放，所有想要的，都得靠自己的努力才能得到。你总是太容易放弃自己了，人生最可悲的事情，莫过于胸怀大志，却又虚度光阴。对自己不满意，但自我安慰今天好好玩明天再努力，既然知道路远，那就早点出发。</div></li>
+                    <li><div>那些已经犯过的错误，有一些是因为来不及，有一些是因为刻意躲避，更多的时候是茫然地站到了一边。我们就这样错了一次又一次，却从不晓得从中汲取教训，做一些反省。</div></li>
+                    <li><div>人最大的困难是认识自己，最容易的也是认识自己。很多时候，我们认不清自己，只因为我们把自己放在了一个错误的位置，给了自己一个错觉。所以，不怕前路坎坷，只怕从一开始就走错了方向。 </div></li>
+                    <li><div>生活在一个城市里，或者爱一个人，又或者做某件事，时间久了，就会觉得厌倦，就会有一种想要逃离的冲动。也许不是厌倦了这个城市、爱的人、坚持的事，只是给不了自己坚持下去的勇气。</div></li>
+                </ul>
+            </div>
+
+
+         <!-- Copyright -->
+         <div style="margin-top:30px;" id="Copyright">
+            <hr/>
+            <div>人生为棋，我愿为卒；行动虽慢，谁曾见我后退半步！</div>
+            <div>Copyright @ Hsuey</div>
+        </div>
+        <!-- END -->
+
+        <!-- 自己写的 -->
+        <script src="./assets/js/Background_effects.js"></script>
+        <!-- END -->
+    </div>
+</body>
+</html>
+
