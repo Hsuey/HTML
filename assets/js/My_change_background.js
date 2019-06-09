@@ -7,13 +7,13 @@
         bodyBgs[3] = "./assets/images/background/03.jpg";
         bodyBgs[4] = "./assets/images/background/04.jpg";
         bodyBgs[5] = "./assets/images/background/05.jpg";
-        bodyBgs[6] = "./assets/images/background/06.jpg";
+        // bodyBgs[6] = "./assets/images/background/06.jpg";
         
-        var randomBgIndex = Math.round( Math.random() * 6 );
+        var randomBgIndex = Math.round( Math.random() * 5 );
 
     //输出随机的背景图
         document.write('<style>body{background:url(' + bodyBgs[randomBgIndex] + ') no-repeat 50% 0}</style>');
-        document.body.style.backgroundSize="100% 100%";
-        document.body.style.backgroundAttachment="fixed";
+        document.body.style.backgroundSize="cover";
+        document.body.style.backgroundAttachment="scroll";
     //]]>
     // </script>
